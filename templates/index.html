@@ -2,9 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card-container {
+            width: 100%;
+            margin: 0 auto; /* выравнивание по центру */
+
+        }
+
+         .card img {
+            height: 500px; /* Задайте желаемую высоту */
+            object-fit: cover; /* Изображение будет обрезаться, сохраняя пропорции */
+        }
+
+    </style>
+
 </head>
 <body>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/">Главная</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/blog/">Блог</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/contacts/">Контакты</a>
+  </li>
+</ul>
 
+    <div class="container card-container mt-5">
+    <h2 style="text-align: center">Добро пожаловать в клуб аниме-сериалов</h2><br>
+    <p style="text-align: center">Здесь собраны подборки лучших аниме разных жанров, с высокими оценками от зрителей</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../static/image/Titans.jpg" class="d-block w-100" alt="Изображение 1">
+                    <div class="card-body">
+                        <p class="card-text">Жанр: Экшен<br>Сериалы: Атака Титанов, Код Гиас</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../static/image/Onidzuka1.jpg" class="d-block w-100" alt="Изображение 2">
+                    <div class="card-body">
+                        <p class="card-text">Жанр: Комедия<br>Сериалы: Крутой учитель Онидзука, Торадора</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../static/image/Alchemist.jpg" class="d-block w-100" alt="Изображение 3">
+                    <div class="card-body">
+                        <p class="card-text">Жанр: Приключения<br>Сериалы: Стальной алхимик, Берсерк</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
