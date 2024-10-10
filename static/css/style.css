@@ -1,3 +1,22 @@
- .nav .nav-link {
-    color: gray; /* Устанавливает белый цвет текста */
+.nav .nav-link {
+   color: gray; /* Устанавливает белый цвет текста */
   }
+
+html, body {
+            height: 100%;
+            margin: 0;
+        }
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+}
+
+footer {
+            padding: 50px;
+            color: black;
+            background-color: #FAEBD7;
+            margin-top: 20px; /* Отступ сверху для футера */
+        }
