@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Книги
+{% endblock %}
+
+{% block content %}
+    <div class="container card-container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../static/books/War_and_Peace.jpg" class="card-img-top" alt="Изображение 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Война и мир</h5>
+                        <p class="card-text">Автор: Л.Н. Толстой</p>
+                        <p class="card-text">Роман-эпопея Льва Николаевича Толстого, описывающий русское общество в
+                            эпоху войн против Наполеона в 1805—1812 годах. Эпилог романа доводит повествование до 1820 года.</p>
+                        <a href="https://ilibrary.ru/text/11/index.html" class="btn btn-primary">Читать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../static/books/Crime_and_Punishment.jpg" class="card-img-top" alt="Изображение 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Преступление и наказание</h5>
+                        <p class="card-text">Автор: Ф.М. Достоевский</p>
+                        <p class="card-text">Социально-психологический и социально-философский роман Фёдора Михайловича Достоевского, о том,
+                            что никакое преступление нельзя совершить, не понеся наказания, в том числе наказания муками совести.
+                            Автор подчёркивает, что никакое дело, даже самое благое, не стоит человеческой жизни.</p>
+                        <a href="https://ilibrary.ru/text/69/p.1/index.html" class="btn btn-primary">Читать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../static/books/Woe_from_mind.jpg" class="card-img-top" alt="Изображение 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Горе от ума</h5>
+                        <p class="card-text">Автор: А. С. Грибоедов</p>
+                        <p class="card-text">Комедия в стихах Александра Сергеевича Грибоедова. Сочетает в себе элементы
+                            классицизма и новых для начала XIX века романтизма и реализма. Описывает светское общество времён
+                            крепостного права и показывает жизнь 1813—1824 годов. Само «действие происходит… спустя десять лет
+                            после войны 1812 года, то есть в 1822</p>
+                        <a href="https://ilibrary.ru/text/5/p.1/index.html" class="btn btn-primary">Читать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
